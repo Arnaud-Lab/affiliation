@@ -1,0 +1,23 @@
+{
+
+  "description": "Get fucking data from affiliation code",
+  "manifest_version": 2,
+  "name": "affiliation-code",
+  "version": "1.0",
+  "homepage_url": "https://affiliation-code.com",
+
+  "background": {
+    "scripts": ["affiliate.js"]
+  },
+
+  "page_action": {
+    "default_icon": "icons/off.svg",
+    "browser_style": true
+  },
+  
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+
+}
